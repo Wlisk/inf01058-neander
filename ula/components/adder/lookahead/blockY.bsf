@@ -1,0 +1,92 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 56 56 200 200)
+	(text "blockY" (rect 24 56 62 70)(font "Arial" (font_size 8)))
+	(text "inst" (rect 24 72 41 84)(font "Arial" ))
+	(port
+		(pt 40 0)
+		(input)
+		(text "Gh_in" (rect 8 0 41 14)(font "Arial" (font_size 8)))
+		(text "Gh_in" (rect 32 16 46 49)(font "Arial" (font_size 8))(vertical))
+		(line (pt 40 0)(pt 40 16))
+	)
+	(port
+		(pt 64 0)
+		(input)
+		(text "Ph_in" (rect 8 0 38 14)(font "Arial" (font_size 8)))
+		(text "Ph_in" (rect 56 16 70 46)(font "Arial" (font_size 8))(vertical))
+		(line (pt 64 0)(pt 64 16))
+	)
+	(port
+		(pt 144 56)
+		(input)
+		(text "Gl_in" (rect 16 8 44 22)(font "Arial" (font_size 8)))
+		(text "Gl_in" (rect 104 48 132 62)(font "Arial" (font_size 8)))
+		(line (pt 128 56)(pt 144 56))
+	)
+	(port
+		(pt 144 72)
+		(input)
+		(text "Pl_in" (rect 16 8 41 22)(font "Arial" (font_size 8)))
+		(text "Pl_in" (rect 104 64 129 78)(font "Arial" (font_size 8)))
+		(line (pt 128 72)(pt 144 72))
+	)
+	(port
+		(pt 88 144)
+		(input)
+		(text "Cin" (rect 8 16 25 30)(font "Arial" (font_size 8)))
+		(text "Cin" (rect 80 104 94 121)(font "Arial" (font_size 8))(vertical))
+		(line (pt 88 144)(pt 88 128))
+	)
+	(port
+		(pt 88 0)
+		(output)
+		(text "Ch_out" (rect 8 0 48 14)(font "Arial" (font_size 8)))
+		(text "Ch_out" (rect 80 16 94 56)(font "Arial" (font_size 8))(vertical))
+		(line (pt 88 0)(pt 88 16))
+	)
+	(port
+		(pt 144 88)
+		(output)
+		(text "Cl_out" (rect 16 8 51 22)(font "Arial" (font_size 8)))
+		(text "Cl_out" (rect 88 83 123 97)(font "Arial" (font_size 8)))
+		(line (pt 144 88)(pt 128 88))
+	)
+	(port
+		(pt 64 144)
+		(output)
+		(text "Pout" (rect 8 16 32 30)(font "Arial" (font_size 8)))
+		(text "Pout" (rect 56 96 70 120)(font "Arial" (font_size 8))(vertical))
+		(line (pt 64 144)(pt 64 128))
+	)
+	(port
+		(pt 40 144)
+		(output)
+		(text "Gout" (rect 8 16 35 30)(font "Arial" (font_size 8)))
+		(text "Gout" (rect 32 96 46 123)(font "Arial" (font_size 8))(vertical))
+		(line (pt 40 144)(pt 40 128))
+	)
+	(drawing
+		(rectangle (rect 16 16 128 128))
+	)
+)
