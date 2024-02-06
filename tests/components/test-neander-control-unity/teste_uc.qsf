@@ -42,56 +42,56 @@ set_global_assignment -name TOP_LEVEL_ENTITY teste_uc
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:23:43  JANUARY 29, 2024"
 set_global_assignment -name LAST_QUARTUS_VERSION 13.1
-set_global_assignment -name BDF_FILE components/ors/SLAOAJJNJZ.bdf
-set_global_assignment -name BDF_FILE components/ors/SLAOA.bdf
-set_global_assignment -name BDF_FILE components/ors/LAOA.bdf
-set_global_assignment -name BDF_FILE components/ors/JNNJNZ.bdf
-set_global_assignment -name BDF_FILE components/ors/JJNJZ.bdf
-set_global_assignment -name BDF_FILE components/write.bdf
-set_global_assignment -name BDF_FILE components/ual_y.bdf
-set_global_assignment -name BDF_FILE components/ual_or.bdf
-set_global_assignment -name BDF_FILE components/ual_not.bdf
-set_global_assignment -name BDF_FILE components/ual_and.bdf
-set_global_assignment -name BDF_FILE components/ual_add.bdf
-set_global_assignment -name BDF_FILE components/sel.bdf
-set_global_assignment -name BDF_FILE components/read.bdf
-set_global_assignment -name BDF_FILE components/incrementa_pc.bdf
-set_global_assignment -name BDF_FILE components/goto_t0.bdf
-set_global_assignment -name BDF_FILE components/carga_ri.bdf
-set_global_assignment -name BDF_FILE components/carga_rem.bdf
-set_global_assignment -name BDF_FILE components/carga_rdm.bdf
-set_global_assignment -name BDF_FILE components/carga_pc.bdf
-set_global_assignment -name BDF_FILE components/carga_nz.bdf
-set_global_assignment -name BDF_FILE components/carga_ac.bdf
-set_global_assignment -name BDF_FILE unidade_controle.bdf
-set_global_assignment -name BDF_FILE ual.bdf
-set_global_assignment -name BDF_FILE io.bdf
-set_global_assignment -name BDF_FILE control.bdf
-set_global_assignment -name BDF_FILE carga.bdf
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
-set_global_assignment -name BDF_FILE teste_uc.bdf
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_base.vwf
-set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "X:/Projects/inf01058-projeto/LAB07/uc/simulation/qsim/" -section_id eda_simulation
+set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "X:/Projects/inf01058-neander-main/tests/components/[todo]/test-neander-control-unity/simulation/qsim/" -section_id eda_simulation
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
-set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_cargaREM.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_incrementaPC.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_cargaRI.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_sel.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_cargaRDM.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_read.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_write.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_ualY.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_ualAdd.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_ualOr.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_ualAnd.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_ualNot.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_cargaAC.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_cargaNZ.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_cargaPC.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_ualAnd.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_ualAdd.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_sel.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_read.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_incrementaPC.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_goto.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_cargaRI.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_cargaREM.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_cargaRDM.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_cargaPC.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_cargaAC.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_base.vwf
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/components-cu-base/write.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/components-cu-base/ual_y.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/components-cu-base/ual_or.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/components-cu-base/ual_not.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/components-cu-base/ual_and.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/components-cu-base/ual_add.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/components-cu-base/sel.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/components-cu-base/read.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/components-cu-base/or_SLAOAJJNJZ.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/components-cu-base/or_SLAOA.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/components-cu-base/or_LAOA.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/components-cu-base/or_JNNJNZ.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/components-cu-base/or_JJNJZ.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/components-cu-base/incrementa_pc.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/components-cu-base/goto_t0.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/components-cu-base/carga_ri.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/components-cu-base/carga_rem.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/components-cu-base/carga_rdm.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/components-cu-base/carga_pc.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/components-cu-base/carga_nz.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/components-cu-base/carga_ac.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/uc_load.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/uc_io.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/uc_control.bdf"
+set_global_assignment -name BDF_FILE "../../../../components/components-cu/uc_alu.bdf"
+set_global_assignment -name BDF_FILE ../../../../components/control_unity.bdf
+set_global_assignment -name BDF_FILE teste_uc.bdf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/teste_base_view.vwf

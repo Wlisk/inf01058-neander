@@ -18,7 +18,7 @@
 #
 # Quartus II 64-Bit
 # Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-# Date created = 16:53:35  November 30, 2023
+# Date created = 17:19:50  February 06, 2024
 #
 # -------------------------------------------------------------------------- #
 #
@@ -36,30 +36,27 @@
 # -------------------------------------------------------------------------- #
 
 
-set_global_assignment -name FAMILY "Cyclone III"
-set_global_assignment -name DEVICE EP3C16F484C6
+set_global_assignment -name FAMILY "Cyclone IV GX"
+set_global_assignment -name DEVICE AUTO
 set_global_assignment -name TOP_LEVEL_ENTITY test
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
-set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:53:35  NOVEMBER 30, 2023"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:19:50  FEBRUARY 06, 2024"
 set_global_assignment -name LAST_QUARTUS_VERSION 13.1
-set_global_assignment -name SEARCH_PATH "x:\\projects\\inf01058-projeto\\neander\\ula\\components\\logical"
-set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
-set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
-set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
-set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
-set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
-set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
-set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name BDF_FILE test.bdf
-set_global_assignment -name BDF_FILE ../or8x8.bdf
-set_global_assignment -name BDF_FILE ../not8x8.bdf
-set_global_assignment -name BDF_FILE ../and8x8.bdf
-set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
-set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
-set_global_assignment -name VECTOR_WAVEFORM_FILE test.vwf
-set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "X:/Projects/inf01058-projeto/neander/ula/components/logical/test/simulation/qsim/" -section_id eda_simulation
-set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name BDF_FILE "../../../components/components-alu/components-adder/RCA_8bits.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-alu/components-adder/HA.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-alu/components-adder/FA.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-alu/or8x8.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-alu/not8x8.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-alu/flag_z.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-alu/flag_n.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-alu/and8x8.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-alu/adder.bdf"
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "X:/Projects/inf01058-neander-main/tests/components/test-ula-logical/simulation/qsim/" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name VECTOR_WAVEFORM_FILE test_alu_logical_view.vwf

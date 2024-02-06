@@ -53,22 +53,6 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 688 408 864 424)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "AC2[7..0]" (rect 90 0 137 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8))
-		(line (pt 52 4)(pt 78 4))
-		(line (pt 52 12)(pt 78 12))
-		(line (pt 52 12)(pt 52 4))
-		(line (pt 78 4)(pt 82 8))
-		(line (pt 82 8)(pt 78 12))
-		(line (pt 78 12)(pt 82 8))
-	)
-)
-(pin
-	(output)
 	(rect 688 280 864 296)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "AC1[7..0]" (rect 90 0 137 12)(font "Arial" ))
@@ -112,43 +96,9 @@ applicable agreement for further details.
 		(rectangle (rect 16 16 120 80))
 	)
 )
-(symbol
-	(rect 544 384 672 480)
-	(text "lookahead" (rect 5 0 62 14)(font "Arial" (font_size 8)))
-	(text "inst1" (rect 8 80 31 92)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "A[7..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
-		(text "A[7..0]" (rect 21 27 58 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32)(line_width 3))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "B[7..0]" (rect 0 0 36 14)(font "Arial" (font_size 8)))
-		(text "B[7..0]" (rect 21 43 57 57)(font "Arial" (font_size 8)))
-		(line (pt 0 48)(pt 16 48)(line_width 3))
-	)
-	(port
-		(pt 128 32)
-		(output)
-		(text "S[7..0]" (rect 0 0 36 14)(font "Arial" (font_size 8)))
-		(text "S[7..0]" (rect 71 27 107 41)(font "Arial" (font_size 8)))
-		(line (pt 128 32)(pt 112 32)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 112 80))
-	)
-)
 (connector
 	(pt 416 232)
 	(pt 512 232)
-	(bus)
-)
-(connector
-	(pt 544 416)
-	(pt 512 416)
 	(bus)
 )
 (connector
@@ -157,23 +107,8 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 512 232)
-	(pt 512 288)
-	(bus)
-)
-(connector
-	(pt 512 288)
-	(pt 512 416)
-	(bus)
-)
-(connector
 	(pt 416 256)
 	(pt 488 256)
-	(bus)
-)
-(connector
-	(pt 544 432)
-	(pt 488 432)
 	(bus)
 )
 (connector
@@ -182,24 +117,17 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 488 256)
-	(pt 488 304)
-	(bus)
-)
-(connector
-	(pt 488 304)
-	(pt 488 432)
-	(bus)
-)
-(connector
-	(pt 672 416)
-	(pt 688 416)
-	(bus)
-)
-(connector
 	(pt 672 288)
 	(pt 688 288)
 	(bus)
 )
-(junction (pt 512 288))
-(junction (pt 488 304))
+(connector
+	(pt 512 232)
+	(pt 512 288)
+	(bus)
+)
+(connector
+	(pt 488 256)
+	(pt 488 304)
+	(bus)
+)
