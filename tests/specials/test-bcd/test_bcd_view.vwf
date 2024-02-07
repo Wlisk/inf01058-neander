@@ -371,7 +371,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "BCD_in";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
+	RADIX = Hexadecimal;
 	TREE_INDEX = 0;
 	TREE_LEVEL = 0;
 	CHILDREN = 1, 2, 3, 4;
@@ -381,7 +381,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "BCD_in[3]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
+	RADIX = Hexadecimal;
 	TREE_INDEX = 1;
 	TREE_LEVEL = 1;
 	PARENT = 0;
@@ -391,7 +391,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "BCD_in[2]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
+	RADIX = Hexadecimal;
 	TREE_INDEX = 2;
 	TREE_LEVEL = 1;
 	PARENT = 0;
@@ -401,7 +401,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "BCD_in[1]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
+	RADIX = Hexadecimal;
 	TREE_INDEX = 3;
 	TREE_LEVEL = 1;
 	PARENT = 0;
@@ -411,7 +411,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "BCD_in[0]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
+	RADIX = Hexadecimal;
 	TREE_INDEX = 4;
 	TREE_LEVEL = 1;
 	PARENT = 0;
