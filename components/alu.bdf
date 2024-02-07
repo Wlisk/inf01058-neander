@@ -57,7 +57,7 @@ applicable agreement for further details.
 	(input)
 	(rect 200 -32 216 136)
 	(text "INPUT" (rect 6 125 16 153)(font "Arial" (font_size 6))(vertical))
-	(text "selALU[2..0]" (rect 6 5 18 67)(font "Arial" )(vertical))
+	(text "selALU[2..0]" (rect 6 5 18 66)(font "Arial" )(vertical))
 	(pt 8 168)
 	(drawing
 		(line (pt 4 84)(pt 4 109))
@@ -382,7 +382,7 @@ applicable agreement for further details.
 (symbol
 	(rect 808 128 936 224)
 	(text "mux2x1-8io" (rect 5 82 71 96)(font "Arial" (font_size 8)))
-	(text "Co_mux_2" (rect 8 4 61 16)(font "Arial" ))
+	(text "Co_mux_3" (rect 8 4 61 16)(font "Arial" ))
 	(port
 		(pt 0 64)
 		(input)

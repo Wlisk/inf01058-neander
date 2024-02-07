@@ -56,6 +56,15 @@ set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_RO
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/Users/dell/Documents/inf01058-neander/simulation/qsim/" -section_id eda_simulation
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name BDF_FILE complex/synccounter8.bdf
+set_global_assignment -name BDF_FILE complex/register4bit.bdf
+set_global_assignment -name BDF_FILE components/regREM.bdf
+set_global_assignment -name BDF_FILE components/regRDM.bdf
+set_global_assignment -name BDF_FILE components/regPC.bdf
+set_global_assignment -name BDF_FILE components/regNZ.bdf
+set_global_assignment -name BDF_FILE components/regAC.bdf
+set_global_assignment -name BDF_FILE components/reg_opcode.bdf
+set_global_assignment -name BDF_FILE components/alu_encoder.bdf
 set_global_assignment -name VHDL_FILE mem/ROM_teste.vhd
 set_global_assignment -name BDF_FILE components/timer.bdf
 set_global_assignment -name BDF_FILE components/mux.bdf
