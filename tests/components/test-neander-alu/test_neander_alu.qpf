@@ -18,14 +18,14 @@
 #
 # Quartus II 64-Bit
 # Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-# Date created = 14:59:21  February 07, 2024
+# Date created = 16:09:13  February 07, 2024
 #
 # -------------------------------------------------------------------------- #
 
 QUARTUS_VERSION = "13.1"
-DATE = "14:59:21  February 07, 2024"
+DATE = "16:09:13  February 07, 2024"
 
 # Revisions
 
-PROJECT_REVISION = "test_mega_alu"
+PROJECT_REVISION = "test_neander_alu"
 PROJECT_REVISION = "test_copy"

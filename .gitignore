@@ -12,3 +12,5 @@ simulation/
 *.jdi
 *.ipinfo
 *test_copy*
+*.xml
+

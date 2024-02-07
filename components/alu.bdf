@@ -588,11 +588,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 184 136)
-	(pt 184 208)
-	(bus)
-)
-(connector
 	(pt 160 192)
 	(pt 160 296)
 	(bus)
@@ -606,21 +601,6 @@ applicable agreement for further details.
 	(text "selALU[2]" (rect 741 160 789 172)(font "Arial" ))
 	(pt 808 176)
 	(pt 728 176)
-)
-(connector
-	(pt 808 160)
-	(pt 160 160)
-	(bus)
-)
-(connector
-	(pt 160 136)
-	(pt 160 160)
-	(bus)
-)
-(connector
-	(pt 160 160)
-	(pt 160 192)
-	(bus)
 )
 (connector
 	(pt 808 192)
@@ -675,12 +655,32 @@ applicable agreement for further details.
 	(pt 976 296)
 	(bus)
 )
+(connector
+	(pt 160 136)
+	(pt 160 192)
+	(bus)
+)
+(connector
+	(pt 808 160)
+	(pt 184 160)
+	(bus)
+)
+(connector
+	(pt 184 136)
+	(pt 184 160)
+	(bus)
+)
+(connector
+	(pt 184 160)
+	(pt 184 208)
+	(bus)
+)
 (junction (pt 160 296))
 (junction (pt 160 400))
 (junction (pt 184 208))
 (junction (pt 160 192))
 (junction (pt 480 456))
 (junction (pt 184 312))
-(junction (pt 160 160))
 (junction (pt 976 296))
 (junction (pt 976 248))
+(junction (pt 184 160))

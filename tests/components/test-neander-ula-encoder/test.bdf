@@ -117,7 +117,7 @@ applicable agreement for further details.
 )
 (symbol
 	(rect 552 128 728 256)
-	(text "alu-encoder" (rect 5 0 73 14)(font "Arial" (font_size 8)))
+	(text "alu_encoder" (rect 5 0 75 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 112 25 124)(font "Arial" ))
 	(port
 		(pt 0 32)

@@ -100,6 +100,13 @@ applicable agreement for further details.
 		(text "RDM_out[7..0]" (rect 92 27 171 41)(font "Arial" (font_size 8)))
 		(line (pt 192 32)(pt 176 32)(line_width 3))
 	)
+	(port
+		(pt 192 48)
+		(output)
+		(text "PC[7..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "PC[7..0]" (rect 128 43 171 57)(font "Arial" (font_size 8)))
+		(line (pt 192 48)(pt 176 48)(line_width 3))
+	)
 	(drawing
 		(rectangle (rect 16 16 176 208))
 	)
