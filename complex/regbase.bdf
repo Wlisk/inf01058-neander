@@ -21,7 +21,7 @@ applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 240 224 408 240)
+	(rect 256 224 424 240)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "clk" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
@@ -37,7 +37,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 240 240 408 256)
+	(rect 256 240 424 256)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "rst" (rect 5 0 17 12)(font "Arial" ))
 	(pt 168 8)
@@ -53,9 +53,9 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 240 168 408 184)
+	(rect 256 152 424 168)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "IN_1" (rect 5 0 28 12)(font "Arial" ))
+	(text "sel" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -69,9 +69,9 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 240 184 408 200)
+	(rect 256 184 424 200)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "sel" (rect 5 0 20 12)(font "Arial" ))
+	(text "data_in" (rect 5 0 41 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -85,9 +85,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 784 208 960 224)
+	(rect 736 208 912 224)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "out" (rect 90 0 105 12)(font "Arial" ))
+	(text "data_out" (rect 90 0 132 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -100,7 +100,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 664 184 760 280)
+	(rect 616 184 712 280)
 	(text "ffd" (rect 5 0 21 14)(font "Arial" (font_size 8)))
 	(text "Co_ffd" (rect 8 80 43 92)(font "Arial" ))
 	(port
@@ -142,29 +142,29 @@ applicable agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "IN_0" (rect 0 0 24 14)(font "Arial" (font_size 8)))
-		(text "IN_0" (rect 21 27 45 41)(font "Arial" (font_size 8)))
+		(text "Sel" (rect 0 0 17 14)(font "Arial" (font_size 8)))
+		(text "Sel" (rect 21 27 38 41)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "IN_1" (rect 0 0 24 14)(font "Arial" (font_size 8)))
-		(text "IN_1" (rect 21 43 45 57)(font "Arial" (font_size 8)))
+		(text "A" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "A" (rect 21 43 30 57)(font "Arial" (font_size 8)))
 		(line (pt 0 48)(pt 16 48))
 	)
 	(port
 		(pt 0 64)
 		(input)
-		(text "sel" (rect 0 0 16 14)(font "Arial" (font_size 8)))
-		(text "sel" (rect 21 59 37 73)(font "Arial" (font_size 8)))
+		(text "B" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "B" (rect 21 59 29 73)(font "Arial" (font_size 8)))
 		(line (pt 0 64)(pt 16 64))
 	)
 	(port
 		(pt 96 32)
 		(output)
-		(text "OUT" (rect 0 0 24 14)(font "Arial" (font_size 8)))
-		(text "OUT" (rect 51 27 75 41)(font "Arial" (font_size 8)))
+		(text "S" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "S" (rect 67 27 75 41)(font "Arial" (font_size 8)))
 		(line (pt 96 32)(pt 80 32))
 	)
 	(drawing
@@ -172,55 +172,55 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(pt 408 192)
-	(pt 472 192)
-)
-(connector
-	(pt 408 232)
-	(pt 664 232)
-)
-(connector
-	(pt 408 248)
-	(pt 664 248)
+	(pt 472 176)
+	(pt 448 176)
 )
 (connector
 	(pt 568 160)
-	(pt 608 160)
+	(pt 592 160)
 )
 (connector
-	(pt 608 160)
-	(pt 608 216)
+	(pt 592 160)
+	(pt 592 216)
 )
 (connector
-	(pt 664 216)
-	(pt 608 216)
+	(pt 592 216)
+	(pt 616 216)
 )
 (connector
-	(pt 472 176)
-	(pt 408 176)
+	(pt 720 216)
+	(pt 720 112)
 )
 (connector
+	(pt 448 112)
+	(pt 720 112)
+)
+(connector
+	(pt 448 176)
+	(pt 448 112)
+)
+(connector
+	(pt 712 216)
+	(pt 720 216)
+)
+(connector
+	(pt 720 216)
+	(pt 736 216)
+)
+(connector
+	(pt 424 232)
+	(pt 616 232)
+)
+(connector
+	(pt 424 248)
+	(pt 616 248)
+)
+(connector
+	(pt 424 192)
+	(pt 472 192)
+)
+(connector
+	(pt 424 160)
 	(pt 472 160)
-	(pt 456 160)
 )
-(connector
-	(pt 768 216)
-	(pt 768 112)
-)
-(connector
-	(pt 768 112)
-	(pt 456 112)
-)
-(connector
-	(pt 456 160)
-	(pt 456 112)
-)
-(connector
-	(pt 760 216)
-	(pt 768 216)
-)
-(connector
-	(pt 768 216)
-	(pt 784 216)
-)
-(junction (pt 768 216))
+(junction (pt 720 216))
