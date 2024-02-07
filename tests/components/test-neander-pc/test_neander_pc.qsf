@@ -1,0 +1,128 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+# Date created = 22:33:48  February 06, 2024
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		test_copy_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE AUTO
+set_global_assignment -name TOP_LEVEL_ENTITY regPC
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "22:33:48  FEBRUARY 06, 2024"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name BDF_FILE "../../../specials/components-bcd/G.bdf"
+set_global_assignment -name BDF_FILE "../../../specials/components-bcd/F.bdf"
+set_global_assignment -name BDF_FILE "../../../specials/components-bcd/E.bdf"
+set_global_assignment -name BDF_FILE "../../../specials/components-bcd/D.bdf"
+set_global_assignment -name BDF_FILE "../../../specials/components-bcd/C.bdf"
+set_global_assignment -name BDF_FILE "../../../specials/components-bcd/B.bdf"
+set_global_assignment -name BDF_FILE "../../../specials/components-bcd/A.bdf"
+set_global_assignment -name BDF_FILE ../../../specials/bcd.bdf
+set_global_assignment -name BDF_FILE "../../../components/components-alu/components-adder/RCA_8bits.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-alu/components-adder/HA.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-alu/components-adder/FA.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-alu/or8x8.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-alu/not8x8.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-alu/flag_z.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-alu/flag_n.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-alu/and8x8.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-alu/adder.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/components-cu-base/write.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/components-cu-base/ual_y.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/components-cu-base/ual_or.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/components-cu-base/ual_not.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/components-cu-base/ual_and.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/components-cu-base/ual_add.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/components-cu-base/sel.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/components-cu-base/read.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/components-cu-base/or_SLAOAJJNJZ.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/components-cu-base/or_SLAOA.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/components-cu-base/or_LAOA.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/components-cu-base/or_JNNJNZ.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/components-cu-base/or_JJNJZ.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/components-cu-base/incrementa_pc.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/components-cu-base/goto_t0.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/components-cu-base/carga_ri.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/components-cu-base/carga_rem.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/components-cu-base/carga_rdm.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/components-cu-base/carga_pc.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/components-cu-base/carga_nz.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/components-cu-base/carga_ac.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/uc_load.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/uc_io.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/uc_control.bdf"
+set_global_assignment -name BDF_FILE "../../../components/components-cu/uc_alu.bdf"
+set_global_assignment -name BDF_FILE ../../../components/timer.bdf
+set_global_assignment -name BDF_FILE ../../../components/run_step_mode.bdf
+set_global_assignment -name BDF_FILE ../../../components/regREM.bdf
+set_global_assignment -name BDF_FILE ../../../components/regRDM.bdf
+set_global_assignment -name BDF_FILE ../../../components/regPC.bdf
+set_global_assignment -name BDF_FILE ../../../components/regNZ.bdf
+set_global_assignment -name BDF_FILE ../../../components/regAC.bdf
+set_global_assignment -name BDF_FILE ../../../components/reg_opcode.bdf
+set_global_assignment -name BDF_FILE ../../../components/mux.bdf
+set_global_assignment -name BDF_FILE ../../../components/fdivisor.bdf
+set_global_assignment -name BDF_FILE ../../../components/decoder.bdf
+set_global_assignment -name BDF_FILE ../../../components/debugger.bdf
+set_global_assignment -name BDF_FILE ../../../components/control_unity.bdf
+set_global_assignment -name BDF_FILE ../../../components/alu_encoder.bdf
+set_global_assignment -name BDF_FILE ../../../components/alu.bdf
+set_global_assignment -name BDF_FILE ../../../complex/synccounter8.bdf
+set_global_assignment -name BDF_FILE ../../../complex/synccounter3.bdf
+set_global_assignment -name BDF_FILE ../../../complex/synccounter_basenext.bdf
+set_global_assignment -name BDF_FILE ../../../complex/synccounter_base.bdf
+set_global_assignment -name BDF_FILE ../../../complex/register8bit.bdf
+set_global_assignment -name BDF_FILE ../../../complex/register4bit.bdf
+set_global_assignment -name BDF_FILE ../../../complex/register1bit.bdf
+set_global_assignment -name BDF_FILE ../../../complex/regbase.bdf
+set_global_assignment -name BDF_FILE ../../../complex/fdiv25.bdf
+set_global_assignment -name BDF_FILE ../../../complex/fdiv5.bdf
+set_global_assignment -name BDF_FILE "../../../base/mux2x1-8io.bdf"
+set_global_assignment -name BDF_FILE ../../../base/mux2x1.bdf
+set_global_assignment -name BDF_FILE ../../../base/ffd.bdf
+set_global_assignment -name BDF_FILE ../../../base/fdiv.bdf
+set_global_assignment -name BDF_FILE ../../../base/decoder4x16e.bdf
+set_global_assignment -name BDF_FILE ../../../base/decoder3x8.bdf
+set_global_assignment -name BDF_FILE ../../../base/decoder2x4e.bdf
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name VECTOR_WAVEFORM_FILE test_neander_pc.vwf
+set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/Users/dell/Documents/inf01058-neander/tests/components/test-neander-pc/simulation/qsim/" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation

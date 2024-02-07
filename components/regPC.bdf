@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 456 80 624 96)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "PC_in[7..0]" (rect 5 0 61 12)(font "Arial" ))
+	(text "PC_in[7..0]" (rect 5 0 60 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 608 288 776 304)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "clk" (rect 5 0 20 12)(font "Arial" ))
+	(text "clk" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 608 304 776 320)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "rst" (rect 5 0 18 12)(font "Arial" ))
+	(text "rst" (rect 5 0 17 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect 288 248 456 264)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "loadPC" (rect 5 0 41 12)(font "Arial" ))
+	(text "loadPC" (rect 5 0 40 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -87,7 +87,7 @@ applicable agreement for further details.
 	(input)
 	(rect 288 264 456 280)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "incPC" (rect 5 0 35 12)(font "Arial" ))
+	(text "incPC" (rect 5 0 34 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -273,6 +273,21 @@ applicable agreement for further details.
 		(arc (pt 25 35)(pt 49 24)(rect -6 -27 57 36))
 	)
 )
+(symbol
+	(rect 288 112 320 128)
+	(text "VCC" (rect 7 0 27 10)(font "Arial" (font_size 6)))
+	(text "inst1" (rect 3 5 26 17)(font "Arial" )(invisible))
+	(port
+		(pt 16 16)
+		(output)
+		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
+		(line (pt 16 16)(pt 16 8))
+	)
+	(drawing
+		(line (pt 8 8)(pt 24 8))
+	)
+)
 (connector
 	(pt 456 256)
 	(pt 520 256)
@@ -405,31 +420,28 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 304 192)
-	(pt 304 184)
+	(pt 304 128)
+	(pt 304 136)
 )
 (connector
-	(text "Y[7..1]" (rect 329 168 363 180)(font "Arial" ))
-	(pt 304 184)
-	(pt 376 184)
-)
-(connector
-	(pt 472 272)
-	(pt 472 224)
+	(text "Y[0]" (rect 330 120 351 132)(font "Arial" ))
+	(pt 304 136)
+	(pt 376 136)
 )
 (connector
 	(pt 456 272)
-	(pt 472 272)
-)
-(connector
-	(pt 472 272)
 	(pt 488 272)
 )
 (connector
-	(text "Y[0]" (rect 353 208 374 220)(font "Arial" ))
-	(pt 472 224)
-	(pt 344 224)
+	(pt 304 192)
+	(pt 304 184)
+	(bus)
+)
+(connector
+	(text "Y[7..1]" (rect 327 168 361 180)(font "Arial" ))
+	(pt 304 184)
+	(pt 376 184)
+	(bus)
 )
 (junction (pt 488 272))
 (junction (pt 1064 160))
-(junction (pt 472 272))
