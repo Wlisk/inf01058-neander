@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 120 264 288 280)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "inRDM[7..0]" (rect 5 0 65 12)(font "Arial" ))
+	(text "inRDM[7..0]" (rect 5 0 64 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 120 408 288 424)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "inN" (rect 5 0 22 12)(font "Arial" ))
+	(text "inN" (rect 5 0 21 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 120 424 288 440)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "inZ" (rect 5 0 21 12)(font "Arial" ))
+	(text "inZ" (rect 5 0 20 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect 120 488 288 504)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "clk" (rect 5 0 20 12)(font "Arial" ))
+	(text "clk" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -87,7 +87,7 @@ applicable agreement for further details.
 	(input)
 	(rect 120 512 288 528)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "rst" (rect 5 0 18 12)(font "Arial" ))
+	(text "rst" (rect 5 0 17 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -312,6 +312,22 @@ applicable agreement for further details.
 	(rect 1040 296 1216 312)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "loadAC" (rect 90 0 125 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 576 608 752 624)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "HLT" (rect 90 0 110 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -831,10 +847,6 @@ applicable agreement for further details.
 	(pt 784 432)
 )
 (connector
-	(pt 784 432)
-	(pt 784 576)
-)
-(connector
 	(pt 840 256)
 	(pt 840 480)
 	(bus)
@@ -849,15 +861,7 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 784 576)
-	(pt 336 576)
-)
-(connector
 	(pt 368 480)
-	(pt 336 480)
-)
-(connector
-	(pt 336 576)
 	(pt 336 480)
 )
 (connector
@@ -961,5 +965,30 @@ applicable agreement for further details.
 	(pt 576 520)
 	(pt 808 520)
 )
+(connector
+	(pt 784 432)
+	(pt 784 576)
+)
+(connector
+	(pt 336 480)
+	(pt 336 576)
+)
+(connector
+	(pt 528 576)
+	(pt 528 616)
+)
+(connector
+	(pt 528 616)
+	(pt 576 616)
+)
+(connector
+	(pt 336 576)
+	(pt 528 576)
+)
+(connector
+	(pt 528 576)
+	(pt 784 576)
+)
 (junction (pt 352 496))
+(junction (pt 528 576))
 (text "out just for debug" (rect 544 488 644 502)(font "Arial" (font_size 8)))

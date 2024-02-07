@@ -156,6 +156,13 @@ applicable agreement for further details.
 		(text "ALU_NOT" (rect 99 235 155 249)(font "Arial" (font_size 8)))
 		(line (pt 176 240)(pt 160 240))
 	)
+	(port
+		(pt 176 256)
+		(output)
+		(text "HLT" (rect 0 0 22 14)(font "Arial" (font_size 8)))
+		(text "HLT" (rect 133 251 155 265)(font "Arial" (font_size 8)))
+		(line (pt 176 256)(pt 160 256))
+	)
 	(drawing
 		(rectangle (rect 16 16 160 272))
 	)
