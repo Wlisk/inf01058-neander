@@ -13,16 +13,44 @@
 # applicable agreement for further details.
 
 # Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-# File: \\HOMES\lamdawa\Downloads\inf01058-neander-main\inf01058-neander-main\output_files\neander.csv
-# Generated on: Wed Feb 07 13:47:32 2024
+# File: C:\Users\aluno\Desktop\inf01058-neander-main\inf01058-neander-main\neander.csv
+# Generated on: Wed Feb 07 15:24:13 2024
 
 # Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
 
 To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair
 button_step,Input,PIN_G3,1,B1_N0,PIN_G3,,,,,
-HLT,Output,PIN_E1,1,B1_N0,PIN_A16,,,,,
-in_50MHz,Input,PIN_G21,6,B6_N1,PIN_B6,,,,,
+HEX0_A,Output,PIN_E11,7,B7_N1,PIN_K16,,,,,
+HEX0_B,Output,PIN_F11,7,B7_N1,PIN_L16,,,,,
+HEX0_C,Output,PIN_H12,7,B7_N1,PIN_H22,,,,,
+HEX0_D,Output,PIN_H13,7,B7_N1,PIN_K21,,,,,
+HEX0_E,Output,PIN_G12,7,B7_N1,PIN_F22,,,,,
+HEX0_F,Output,PIN_F12,7,B7_N1,PIN_J16,,,,,
+HEX0_G,Output,PIN_F13,7,B7_N1,PIN_J18,,,,,
+HEX1_A,Output,PIN_A13,7,B7_N1,PIN_J22,,,,,
+HEX1_B,Output,PIN_B13,7,B7_N1,PIN_H20,,,,,
+HEX1_C,Output,PIN_C13,7,B7_N1,PIN_K17,,,,,
+HEX1_D,Output,PIN_A14,7,B7_N1,PIN_J15,,,,,
+HEX1_E,Output,PIN_B14,7,B7_N1,PIN_H18,,,,,
+HEX1_F,Output,PIN_E14,7,B7_N1,PIN_J21,,,,,
+HEX1_G,Output,PIN_A15,7,B7_N1,PIN_L15,,,,,
+HEX2_A,Output,PIN_D15,7,B7_N0,PIN_F21,,,,,
+HEX2_B,Output,PIN_A16,7,B7_N1,PIN_M16,,,,,
+HEX2_C,Output,PIN_B16,7,B7_N1,PIN_K19,,,,,
+HEX2_D,Output,PIN_E15,7,B7_N0,PIN_L21,,,,,
+HEX2_E,Output,PIN_A17,7,B7_N1,PIN_K15,,,,,
+HEX2_F,Output,PIN_B17,7,B7_N1,PIN_L22,,,,,
+HEX2_G,Output,PIN_F14,7,B7_N0,PIN_K18,,,,,
+HEX3_A,Output,PIN_B18,7,B7_N0,PIN_M21,,,,,
+HEX3_B,Output,PIN_F15,7,B7_N0,PIN_E22,,,,,
+HEX3_C,Output,PIN_A19,7,B7_N0,PIN_H19,,,,,
+HEX3_D,Output,PIN_B19,7,B7_N0,PIN_H21,,,,,
+HEX3_E,Output,PIN_C19,7,B7_N0,PIN_M19,,,,,
+HEX3_F,Output,PIN_D19,7,B7_N0,PIN_M20,,,,,
+HEX3_G,Output,PIN_G15,7,B7_N0,PIN_N21,,,,,
+in_50MHz,Input,PIN_G21,6,B6_N1,PIN_G21,,,,,
 outN,Output,PIN_J1,1,B1_N1,PIN_J1,,,,,
 outZ,Output,PIN_J2,1,B1_N1,PIN_J2,,,,,
 rst,Input,PIN_H2,1,B1_N1,PIN_H2,,,,,
 run_debug,Input,PIN_J6,1,B1_N0,PIN_J6,,,,,
+HLT,Unknown,PIN_E1,1,B1_N0,,,,,,
