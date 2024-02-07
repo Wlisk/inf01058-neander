@@ -325,7 +325,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 576 608 752 624)
+	(rect 1040 568 1216 584)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "HLT" (rect 90 0 110 12)(font "Arial" ))
 	(pt 0 8)
@@ -847,6 +847,10 @@ applicable agreement for further details.
 	(pt 784 432)
 )
 (connector
+	(pt 784 432)
+	(pt 784 576)
+)
+(connector
 	(pt 840 256)
 	(pt 840 480)
 	(bus)
@@ -862,6 +866,10 @@ applicable agreement for further details.
 )
 (connector
 	(pt 368 480)
+	(pt 336 480)
+)
+(connector
+	(pt 336 576)
 	(pt 336 480)
 )
 (connector
@@ -966,29 +974,13 @@ applicable agreement for further details.
 	(pt 808 520)
 )
 (connector
-	(pt 784 432)
+	(pt 336 576)
 	(pt 784 576)
 )
 (connector
-	(pt 336 480)
-	(pt 336 576)
-)
-(connector
-	(pt 528 576)
-	(pt 528 616)
-)
-(connector
-	(pt 528 616)
-	(pt 576 616)
-)
-(connector
-	(pt 336 576)
-	(pt 528 576)
-)
-(connector
-	(pt 528 576)
 	(pt 784 576)
+	(pt 1040 576)
 )
 (junction (pt 352 496))
-(junction (pt 528 576))
+(junction (pt 784 576))
 (text "out just for debug" (rect 544 488 644 502)(font "Arial" (font_size 8)))
