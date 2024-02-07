@@ -122,7 +122,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 616 280 744 376)
+	(rect 608 280 736 376)
 	(text "synccounter3" (rect 5 0 84 14)(font "Arial" (font_size 8)))
 	(text "Co_counter" (rect 8 80 64 92)(font "Arial" ))
 	(port
@@ -239,27 +239,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 760 312)
-	(pt 760 392)
-	(bus)
-)
-(connector
-	(pt 616 312)
-	(pt 584 312)
-)
-(connector
-	(pt 616 328)
-	(pt 560 328)
-)
-(connector
-	(pt 584 312)
-	(pt 584 272)
-)
-(connector
-	(pt 560 328)
-	(pt 560 296)
-)
-(connector
 	(pt 288 272)
 	(pt 584 272)
 )
@@ -267,20 +246,6 @@ applicable agreement for further details.
 	(pt 920 312)
 	(pt 936 312)
 	(bus)
-)
-(connector
-	(pt 744 312)
-	(pt 760 312)
-	(bus)
-)
-(connector
-	(pt 760 312)
-	(pt 784 312)
-	(bus)
-)
-(connector
-	(pt 616 344)
-	(pt 536 344)
 )
 (connector
 	(pt 392 296)
@@ -313,6 +278,41 @@ applicable agreement for further details.
 (connector
 	(pt 416 240)
 	(pt 416 376)
+)
+(connector
+	(pt 760 312)
+	(pt 760 392)
+	(bus)
+)
+(connector
+	(pt 584 312)
+	(pt 608 312)
+)
+(connector
+	(pt 560 328)
+	(pt 608 328)
+)
+(connector
+	(pt 584 272)
+	(pt 584 312)
+)
+(connector
+	(pt 560 296)
+	(pt 560 328)
+)
+(connector
+	(pt 736 312)
+	(pt 760 312)
+	(bus)
+)
+(connector
+	(pt 760 312)
+	(pt 784 312)
+	(bus)
+)
+(connector
+	(pt 536 344)
+	(pt 608 344)
 )
 (junction (pt 760 312))
 (junction (pt 392 296))

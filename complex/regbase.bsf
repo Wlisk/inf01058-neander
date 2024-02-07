@@ -26,15 +26,15 @@ applicable agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "sel" (rect 0 0 16 14)(font "Arial" (font_size 8)))
-		(text "sel" (rect 21 27 37 41)(font "Arial" (font_size 8)))
+		(text "data_in" (rect 0 0 41 14)(font "Arial" (font_size 8)))
+		(text "data_in" (rect 21 27 62 41)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "data_in" (rect 0 0 41 14)(font "Arial" (font_size 8)))
-		(text "data_in" (rect 21 43 62 57)(font "Arial" (font_size 8)))
+		(text "sel" (rect 0 0 16 14)(font "Arial" (font_size 8)))
+		(text "sel" (rect 21 43 37 57)(font "Arial" (font_size 8)))
 		(line (pt 0 48)(pt 16 48))
 	)
 	(port

@@ -244,8 +244,41 @@ applicable agreement for further details.
 	)
 )
 (symbol
+	(rect 696 416 760 464)
+	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
+	(text "Co_slaoa_jjnjz" (rect 3 37 72 49)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
+		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
+		(line (pt 0 32)(pt 15 32))
+	)
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
+		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 15 16))
+	)
+	(port
+		(pt 64 24)
+		(output)
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
+		(line (pt 48 24)(pt 64 24))
+	)
+	(drawing
+		(line (pt 14 36)(pt 25 36))
+		(line (pt 14 13)(pt 25 13))
+		(arc (pt 7 29)(pt 7 19)(rect -14 8 19 41))
+		(arc (pt 49 24)(pt 25 13)(rect -6 13 57 76))
+		(arc (pt 25 35)(pt 49 24)(rect -6 -27 57 36))
+	)
+)
+(symbol
 	(rect 504 240 624 368)
-	(text "SLAOA" (rect 5 0 48 14)(font "Arial" (font_size 8)))
+	(text "or_SLAOA" (rect 5 0 67 14)(font "Arial" (font_size 8)))
 	(text "Co_slaoa" (rect 8 112 54 124)(font "Arial" ))
 	(port
 		(pt 0 32)
@@ -302,7 +335,7 @@ applicable agreement for further details.
 )
 (symbol
 	(rect 504 368 616 496)
-	(text "JJNJZ" (rect 5 0 39 14)(font "Arial" (font_size 8)))
+	(text "or_JJNJZ" (rect 5 0 58 14)(font "Arial" (font_size 8)))
 	(text "Co_jjnjz" (rect 8 112 45 124)(font "Arial" ))
 	(port
 		(pt 0 32)
@@ -348,39 +381,6 @@ applicable agreement for further details.
 	)
 	(drawing
 		(rectangle (rect 16 16 96 112))
-	)
-)
-(symbol
-	(rect 696 416 760 464)
-	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
-	(text "Co_slaoa_jjnjz" (rect 3 37 72 49)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(line (pt 0 32)(pt 15 32))
-	)
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 15 16))
-	)
-	(port
-		(pt 64 24)
-		(output)
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(line (pt 48 24)(pt 64 24))
-	)
-	(drawing
-		(line (pt 14 36)(pt 25 36))
-		(line (pt 14 13)(pt 25 13))
-		(arc (pt 7 29)(pt 7 19)(rect -14 8 19 41))
-		(arc (pt 49 24)(pt 25 13)(rect -6 13 57 76))
-		(arc (pt 25 35)(pt 49 24)(rect -6 -27 57 36))
 	)
 )
 (connector

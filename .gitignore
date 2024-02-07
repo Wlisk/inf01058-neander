@@ -11,3 +11,4 @@ simulation/
 *.sof
 *.jdi
 *.ipinfo
+*test_copy*
