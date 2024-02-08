@@ -13,4 +13,6 @@ simulation/
 *.ipinfo
 *test_copy*
 *.xml
+*.bak
+*.ddb
 
