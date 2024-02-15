@@ -1,0 +1,17 @@
+https://stackoverflow.com/questions/42775603/refilling-ram-vhdl
+
+https://www.fpga4student.com/2017/08/vhdl-code-for-single-port-ram.html
+
+https://www.doulos.com/knowhow/vhdl/simple-ram-model/
+
+https://circuitdigest.com/microcontroller-projects/designing-of-ram-in-vhdl-using-modelsim
+
+https://vhdlwhiz.com/initialize-ram-from-file/
+
+https://community.intel.com/t5/Intel-Quartus-Prime-Software/VHDL-How-to-initialize-RAM-from-file/m-p/30348
+
+https://wiki.sj.ifsc.edu.br/index.php/Inicializa%C3%A7%C3%A3o_de_mem%C3%B3ria_com_arquivos_.MIF_e_.HEX
+
+https://www.youtube.com/watch?v=pC3zHJmXKaw
+
+
